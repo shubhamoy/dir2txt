@@ -5,7 +5,7 @@
 
 Config::Config(int argc, char* argv[]) {
     try {
-        cxxopts::Options options(argv[0], "dir2txt by Shubhamoy Chakrabarty <me[at]shubhamoy[dot]com>. Generate a directory tree followed by content.");
+        cxxopts::Options options(argv[0], "A blazing-fast CLI tool to export a directory's structure and contents into a neatly formatted `.txt` or `.json` file.");
 
         options.positional_help("<directory>")
                .show_positional_help();
