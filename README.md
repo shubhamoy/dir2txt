@@ -65,6 +65,14 @@ Whether you're working on Retrieval-Augmented Generation (RAG), AI copilots, cod
 ![screenshot](screenshot_dir2txt.png)
 
 ---
+### 🧪 Quick Install via Homebrew
+
+```bash
+brew tap yourusername/dir2txt
+brew install dir2txt
+```
+
+---
 
 ## 🛠️ Usage
 
