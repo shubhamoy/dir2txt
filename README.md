@@ -57,7 +57,7 @@ Whether you're working on Retrieval-Augmented Generation (RAG), AI copilots, cod
            ▼
      🤖 LLM / AI Agent
  (e.g., GPT, Claude, Mistral, LLaMA)
-
+```
  ---
 
 ## 🖼️ Screenshot
