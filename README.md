@@ -31,6 +31,34 @@ Use it to:
 > Instead of manually collecting files or asking LLMs to interpret a directory — `dir2txt` gives them context on a silver platter.
 
 ---
+## 🧠 Integrating with AI Pipelines
+
+`dir2txt` is designed to be the **first step** in your AI workflow — transforming messy source directories into clean, structured input for language models.
+
+Whether you're working on Retrieval-Augmented Generation (RAG), AI copilots, code search, or documentation bots — `dir2txt` prepares your project for intelligent ingestion.
+
+### 🧩 Typical Pipeline
+
+```text
+[ Source Code Directory ]
+           │
+           ▼
+      📂 dir2txt
+    (Tree + Content Dump)
+           │
+           ▼
+  🔗 Chunking + Embedding
+   (e.g., LangChain, llama-index)
+           │
+           ▼
+     🗂️ Vector DB / Index
+    (ChromaDB, Weaviate, FAISS)
+           │
+           ▼
+     🤖 LLM / AI Agent
+ (e.g., GPT, Claude, Mistral, LLaMA)
+
+ ---
 
 ## 🖼️ Screenshot
 
